@@ -19,8 +19,6 @@ namespace Golary.Application.Sport.Commands.TypeOfExerciseCommands.CreateTypeOfE
         public async Task<Guid> Handle(CreateTypeOfExerciseCommand request,
             CancellationToken cancellationToken)
         {
-
-
             // Обработчик создает TypeOfExercise по DTO команды
             var typeOfExercise = new TypeOfExercise
             {

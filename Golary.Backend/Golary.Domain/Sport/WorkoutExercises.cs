@@ -4,7 +4,7 @@
     // Представляет сущность тренировочного блока
     // на одном снаряде с заданным весом, колличеством повторений,
     // подходов и отдыха между подходами
-    public class WorkoutExercises : BaseEntity
+    public class WorkoutExercise : BaseEntity
     {
         public TypeOfExercise TypeOfExercise { get; set; } // Тип упражнения  
         public WorkoutForTheDay WorkoutForTheDay { get; set; } // тренировочный день

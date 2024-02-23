@@ -9,7 +9,7 @@ namespace Golary.Application.Interfaces
     {
         // Таблицы в базе данных
         DbSet<TypeOfExercise> TypeOfExercises { get; set; } 
-        DbSet<WorkoutExercises> WorkoutsExercises { get; set; }
+        DbSet<WorkoutExercise> WorkoutsExercises { get; set; }
         DbSet<WorkoutForTheDay> WorkoutsForTheDay { get; set; }
 
         // Метод сохранения изменений в базе данных

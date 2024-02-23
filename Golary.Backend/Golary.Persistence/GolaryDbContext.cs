@@ -9,7 +9,7 @@ namespace Golary.Persistence
     public class GolaryDbContext : DbContext, IGolaryDbContext
     {
         public DbSet<TypeOfExercise> TypeOfExercises { get; set; }
-        public DbSet<WorkoutExercises> WorkoutsExercises { get; set; }
+        public DbSet<WorkoutExercise> WorkoutsExercises { get; set; }
         public DbSet<WorkoutForTheDay> WorkoutsForTheDay { get; set; }
 
         // Настройка опций контекста

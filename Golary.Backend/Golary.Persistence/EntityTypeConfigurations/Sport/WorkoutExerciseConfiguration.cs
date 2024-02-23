@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 namespace Golary.Persistence.EntityTypeConfigurations.Sport
 {
     // Конфигурация сущностей тренировочного блока
-    internal class WorkoutExerciseConfiguration : BaseEntityConfiguration<WorkoutExercises>
+    internal class WorkoutExerciseConfiguration : BaseEntityConfiguration<WorkoutExercise>
     {
-        public override void Configure(EntityTypeBuilder<WorkoutExercises> builder)
+        public override void Configure(EntityTypeBuilder<WorkoutExercise> builder)
         {
             base.Configure(builder);
 
